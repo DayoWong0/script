@@ -3,7 +3,7 @@
 
 # YOUR_WEBHOOK_TOKEN
 # https://open.feishu.cn/open-apis/bot/v2/hook/
-YOUR_WEBHOOK_TOKEN = "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxx"
+YOUR_WEBHOOK_TOKEN="https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxx"
 # disable firewall
 ufw disable
 
