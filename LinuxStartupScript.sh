@@ -21,7 +21,7 @@ apt-get install docker-compose-plugin
 # install hysyeria2
 wget https://raw.githubusercontent.com/DayoWong0/hysteria2-install/refs/heads/main/hysteria2-install-main/hy2/hysteria.sh
 # 使用 printf 模拟多次按下回车键（根据脚本需要的输入次数调整 \n 的个数）
-printf "1\n\n\n\n\n\n\n\n\n" | bash hysteria.sh
+bash hysteria.sh
 # 读取 hysteria2 分享链接
 hy2=$(</root/hy/url.txt)
 
