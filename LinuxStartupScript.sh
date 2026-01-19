@@ -6,6 +6,8 @@
 YOUR_WEBHOOK_TOKEN="https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxx"
 # disable firewall
 ufw disable
+sudo systemctl stop firewalld
+sudo systemctl disable firewalld
 
 cd ~
 # install docker
